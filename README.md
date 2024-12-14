@@ -5,4 +5,4 @@
 
 <h2>Hyundai</h2>
 
-<a href="https://spectacular-peony-f3eda2.netlify.app/"> <img src="hyundai-dis.png"> </a>
+<a href="https://earnest-moxie-46344d.netlify.app/"> <img src="hyundai-dis.png"> </a>
