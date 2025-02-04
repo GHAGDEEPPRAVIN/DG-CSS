@@ -1,0 +1,796 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.body
+{
+    overflow: auto;
+}
+.background
+{
+    height: 420px;
+    width:100%;
+    background-image: url('images/background.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h5
+{
+    font-family: sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    float: left;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.h4p
+{
+    position: absolute;
+    right: 0%;
+    margin-right: 210px;
+}
+h4
+{
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    float: left;
+    padding: 8px 8px;
+    margin: 20px;
+}
+.header a
+{
+    text-decoration: none;
+    color: white;
+}
+.search
+{
+    height: 222px;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 30%;
+}
+.logo
+{
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 34px;
+}
+.logo img
+{
+    height: 100%;
+    width: 100%;
+}
+h3
+{
+    font-family: sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 80px;
+    margin-top: 30px;
+}
+.cirls
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 86%;
+    left: 50%;
+}
+.bo1
+{
+    color: #757575;
+    line-height: 55px;
+    height: 55px;
+    width: 223px;
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    border-right: 1px solid rgb(132, 132, 132);
+}
+.bo1 i
+{
+    height: 20px;
+    width: 16px;
+    color: rgb(255, 173, 22);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bo2
+{
+    height: 55px;
+    width: 527px;
+    background-color: white;
+    border-radius: 0px 8px 8px 0px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bo2 i
+{
+    height: 18px;
+    width: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.bo1 img
+{
+    height: 10px;
+    width: 12px;
+    margin-left: 110px;
+}
+input
+{
+    border: none;
+    height: 55px;
+    width: 350px;
+    outline: none;
+}
+::placeholder
+{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    color: #A8A8A8;
+}
+.opts
+{
+    position: absolute;
+    top: 420px;
+}
+.opt1
+{
+    height: 240px;
+    width: 353.34px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(194, 194, 194);
+    margin-top: 40px;
+    position: absolute;
+    top: 20px;
+    left: 209.600px;
+    float: left;
+}
+.opt1 img
+{
+    height: 192px;
+    width: 100%;
+    border-radius: 8px;
+}
+.box1
+{
+    height: 83.6px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+}
+.opt2
+{
+    height: 240px;
+    width: 353.34px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(194, 194, 194);
+    margin-top: 40px;
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 582.94px;
+}
+.opt2 img
+{
+    height: 192px;
+    width: 100%;
+    border-radius: 8px;
+}
+.box2
+{
+    height: 83.6px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+}
+.opt3
+{
+    height: 240px;
+    width: 353.34px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(194, 194, 194);
+    margin-top: 40px;
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 956.28px;
+}
+.opt3 img
+{
+    height: 192px;
+    width: 100%;
+    border-radius: 8px;
+}
+.box3
+{
+    height: 83.6px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+}
+h1
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #363636;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+h2
+{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #4F4F4F;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.nar
+{
+    position: relative;
+    top: 390px;
+    left: 189.6px;
+}
+.nar h1
+{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: ##1C1C1C;
+}
+.nar h2
+{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: ##4B4B4B;
+}
+.squaopt1
+{
+    height: 320px;
+    width: 267.5px;
+    border-radius: 8px;
+    background-color: black;
+    position: absolute;
+    left: 20px;
+    top: 105px;
+}
+.squaopt1 h3
+{
+    width: 100%;
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    margin: 0%;
+}
+.squaopt1 h4
+{
+    width: 100%;
+    position: absolute;
+    left: 2.5%;
+    top: 85%;
+    margin: 0%;
+}
+.squaopt1 img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.squaopt2
+{
+    height: 320px;
+    width: 267.5px;
+    border-radius: 8px;
+    background-color: black;
+    position: absolute;
+    left: 297.5px;
+    top: 105px;
+}
+.squaopt2 h3
+{
+    width: 100%;
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    margin: 0%;
+}
+.squaopt2 h4
+{
+    width: 100%;
+    position: absolute;
+    left: 2.5%;
+    top: 85%;
+    margin: 0%;
+}
+.squaopt2 img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.squaopt3
+{
+    height: 320px;
+    width: 267.5px;
+    border-radius: 8px;
+    background-color: black;
+    position: absolute;
+    left: 575px;
+    top: 105px;
+}
+.squaopt3 h3
+{
+    width: 100%;
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    margin: 0%;
+}
+.squaopt3 h4
+{
+    width: 100%;
+    position: absolute;
+    left: 2.5%;
+    top: 85%;
+    margin: 0%;
+}
+.squaopt3 img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.squaopt4
+{
+    height: 320px;
+    width: 267.5px;
+    border-radius: 8px;
+    background-color: black;
+    position: absolute;
+    left: 850px;
+    top: 105px;
+}
+.squaopt4 h3
+{
+    width: 100%;
+    position: absolute;
+    left: 55%;
+    top: 80%;
+    margin: 0%;
+}
+.squaopt4 h4
+{
+    width: 100%;
+    position: absolute;
+    left: 2.5%;
+    top: 85%;
+    margin: 0%;
+}
+.squaopt4 img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.squares h3
+{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+.squares h4
+{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.pop
+{
+    height: 50vh;
+    width: 1100px;
+    position: absolute;
+    top: 1100%;
+    left: 30%;
+}
+.pop h2
+{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #363636;
+    margin-bottom: 10px;
+}
+.pop h3
+{
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.pop h4
+{
+    color: #363636;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.option1
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.option1 h3
+{
+    position: absolute;
+    left: 51px;
+    top: 63px;
+}
+.option1 h4
+{
+    margin-top: 30px;
+}
+.option2
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.option2 h3
+{
+    position: absolute;
+    left: 38.49%;
+    top: 63px;
+}
+.option2 h4
+{
+    margin-top: 30px;
+}
+.option3
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 10px;
+}
+.option3 h3
+{
+    position: absolute;
+    left: 74.3%;
+    top: 63px;
+}
+.option3 h4
+{
+    margin-top: 30px;
+}
+.option4
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.option4 h3
+{
+    position: absolute;
+    left: 67px;
+    top: 40.5%;
+}
+.option4 h4
+{
+    margin-top: 30px;
+}
+.option5
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.option5 h3
+{
+    position: absolute;
+    left: 38.49%;
+    top: 40.5%;
+}
+.option5 h4
+{
+    margin-top: 30px;
+}
+.option6
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 10px;
+}
+.option6 h3
+{
+    position: absolute;
+    left: 72.6%;
+    top: 40.5%;
+}
+.option6 h4
+{
+    margin-top: 30px;
+}
+.option7
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.option7 h3
+{
+    position: absolute;
+    left: 61px;
+    top: 65%;
+}
+.option7 h4
+{
+    margin-top: 30px;
+}
+.option8
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.option8 h3
+{
+    position: absolute;
+    left: 40%;
+    top: 65%;
+}
+.option8 h4
+{
+    margin-top: 30px;
+}
+.option9
+{
+    height: 79px;
+    width: 356px;
+    border-radius: 8px;
+    border: 1px solid black;
+    float: left;
+    margin-bottom: 10px;
+}
+.option9 h3
+{
+    position: absolute;
+    left: 82%;
+    top: 67%;
+}
+.option9 img 
+{
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+.share
+{
+    height: 480px;
+    width: 100%;
+    background-color: #FFFBF7;
+    position: absolute;
+    top: 238%;
+    margin: 20px 0pxs;
+}
+.shapp
+{
+    height: 450px;
+    width: 900px;
+    position: relative;
+    top: 15px;
+    left: 17.5%; 
+}
+.moblie
+{
+    height: 450px;
+    width: 410px;
+    float: left;
+    margin-right: 20px;
+}
+.moblie img
+{
+    height: 100%;
+    width: 100%;
+}
+.info
+{
+    height: 450px;
+    width: 470px;
+    float: left;
+}
+.infocontet h1
+{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+.infocontet p
+{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #363636;
+    margin-left: 30px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+}
+.emailc
+{
+    height: 18px;
+    width: 18px;
+}
+.ema-pho
+{
+    margin-left: 25px;
+}
+.ema-pho span
+{
+    margin-left: 8px;
+    margin-right: 50px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+.phonec
+{
+    height: 18px;
+    width: 18px;
+}
+.share .eml input 
+{
+    border-radius: 6px;
+    /* display: none; */
+    margin-top: 15px;
+    margin-left: 28px;
+    height: 46px;
+    width: 290px;
+    padding: 13px 14px;
+    border: 1px solid rgb(207, 207, 207);
+}
+.share .eml span
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #EF4F5F;
+    border-radius: 6px;
+    height: 46px;
+    width: 150px;
+    padding: 14.5px 20px;
+}
+.share .googleapp
+{   
+    margin-top: 10px;
+    margin-left: 28px;
+}
+.share .googleapp span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.share .googleapp img
+{
+    margin-top: 10px;
+    height: 40px;
+    width: 140px;
+}
+.explore img
+{
+    position: absolute;
+    top: 310%;
+    right: 0px;
+    width: 100%;
+}
+.footer
+{
+    position: relative;
+    top: 3000px;
+    width: 80%;
+    margin: auto;
+    background-color: #F8F8F8;
+}
+.downfooter
+{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.downfooter span
+{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.downfooter ul li
+{
+    margin-top: 20px;
+    list-style: none;
+}
+.downfooter ul li a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4F4F4F;
+}
