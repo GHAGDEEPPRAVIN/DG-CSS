@@ -6,3 +6,7 @@
 <h2>Hyundai</h2>
 
 <a href="https://earnest-moxie-46344d.netlify.app/"> <img src="hyundai-dis.png"> </a>
+
+<h2>Zomato</h2>
+
+<a href="https://earnest-moxie-46344d.netlify.app/"> <img src="zomato.png"> </a>
