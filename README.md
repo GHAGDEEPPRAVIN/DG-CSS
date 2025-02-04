@@ -9,4 +9,4 @@
 
 <h2>Zomato</h2>
 
-<a href="https://earnest-moxie-46344d.netlify.app/"> <img src="zomato.png"> </a>
+<a href=""> <img src="zomato.png"> </a>
