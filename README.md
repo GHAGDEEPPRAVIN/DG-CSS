@@ -9,4 +9,8 @@
 
 <h2>Zomato</h2>
 
-<a href=""> <img src="zomato.png"> </a>
+<a href="https://elegant-duckanoo-5f234d.netlify.app/"> <img src="zomato.png"> </a>
+
+<h2>Netflix</h2>
+
+<a href="https://capable-pika-d478f1.netlify.app/"> <img src="net.png"> </a>
