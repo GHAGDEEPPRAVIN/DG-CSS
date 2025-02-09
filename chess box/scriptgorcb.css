@@ -1,0 +1,45 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.one
+{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 60px;
+    text-shadow: 2px 1px white;
+   
+}
+.box1
+{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    float: left;
+    line-height: 100px;
+    background-size: cover;
+    text-align: center;
+
+    
+}
+.box2
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+    line-height: 100px;
+    background-size: cover;
+    text-align: center;
+}
+.two
+{
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 60px;
+    text-shadow: 2px 1px white;
+}
