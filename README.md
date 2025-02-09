@@ -14,3 +14,7 @@
 <h2>Netflix</h2>
 
 <a href="https://legendary-moxie-36219d.netlify.app/"> <img src="net.png"> </a>
+
+<h2>Chess box</h2>
+
+<a href="https://precious-cascaron-f39a67.netlify.app/"> <img src="cb.png"> </a>
