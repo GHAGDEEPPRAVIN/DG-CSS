@@ -1,0 +1,692 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+    /* navbar code starts */
+
+    /* main menu code starts */
+
+
+.collapse .navbar-nav .nav-item .nav-link i
+{
+    padding: 18px 5px;
+    font-size: 16px;
+}    
+.collapse .navbar-nav .nav-item .nav-link
+{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(63, 59, 59);
+}
+.collapse .navbar-nav .nav-item .nav-link:hover
+{
+    color: #1BBD36;
+}
+
+    /* main menu code ends */
+
+    /* navbar code ends */
+
+    /* banner slider code starts */
+
+.swiper 
+{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide 
+{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.swiper-slide img 
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}  
+.swiper 
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-slider .banner1
+{
+    height: 670px;
+    width: 100%;
+    background-image: url('images/bannerimage1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-slider .banner2
+{
+    height: 670px;
+    width: 100%;
+    background-image: url('images/bannerimage2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-slider .banner3
+{
+    height: 670px;
+    width: 100%;
+    background-image: url('images/bannerimage3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-slider .desciption
+{
+    background-color: rgba(0, 0, 0, 0.437);
+    position: relative;
+    top: 55%;
+    border-top: 5px solid #1BBD36;
+    padding: 30px 12px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+.banner-slider .desciption h2
+{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-slider .desciption p
+{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.banner-slider .desciption button
+{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 8px 32px;
+    background: none;
+    outline: none;
+    border: 1px solid #1BBD36;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.banner-slider .desciption button:hover
+{
+    background-color: #1BBD36;
+}
+
+    /* banner slider code ends */
+
+    /* consequatur code starts */
+
+.consequatur .title    
+{
+    width: 82%;
+}
+.consequatur img
+{
+    height: 560px;
+    width: 110%;
+}    
+.consequatur .title .info
+{
+    background-color: #F8F8F8;
+    /* padding: 40px 260px 40px 40px; */
+    padding: 40px;
+}
+.consequatur .title h2
+{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.consequatur .title .info button i
+{
+    color: #1BBD36;
+    font-size: 32px;
+}
+.consequatur .title .info button span
+{
+    color: #444c;
+    margin-left: 8px;
+    transition: 0.5s;
+}
+.consequatur .title .info button
+{
+    color: #1BBD36;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-weight: 600;
+}
+.consequatur .title .info button:hover span
+{
+    color: #1BBD36;
+}
+.consequatur .title .info h4
+{
+    font-size: 18px; 
+    font-weight: 500;
+    color: #44444480;
+}
+.consequatur .title .info .one
+{
+    position: relative;
+    top: 1px; 
+    font-size: 18px;
+    color: #44444480;
+}
+.consequatur .title .info .two
+{
+    position: relative;
+    top: -1px; 
+    font-size: 18px;
+    color: #44444480;
+}
+.consequatur .title .info h3
+{
+    font-size: 36px; 
+    font-weight: 700;
+    color: #444c;
+    margin-bottom: 10px;
+}
+.consequatur .title .info p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 18px;
+}
+.consequatur .title .info ul
+{
+    margin-bottom: 16px;
+}
+.consequatur .title .info ul li
+{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.consequatur .title .info ul li i
+{
+    margin-right: 5px;
+    position: relative;
+    left: -2px;
+    color: #1BBD36;
+    font-size: 20px;
+}
+
+
+
+    /* consequatur code ends */
+
+    /* six boxes code starts */
+ 
+.sixbox 
+{
+    background-color: #F4F4F4;
+    padding: 60px 0px;        
+}
+.sixbox .row
+{
+    height: 390px;
+}
+.sixbox .row .content
+{
+    width: 31.5%;
+    padding: 60px 30px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    background-color: white;
+    border-radius: 4px;
+}
+.sixbox .row .content .icon1
+{
+    width: 100px;
+    line-height: 100px;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon1
+{
+    background-color: #0DCAF0;
+}
+.sixbox .row .content .icon1 i 
+{
+    font-size: 36px;
+    color: #0DCAF0;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon1 i
+{
+    color: white;
+}
+.sixbox .row .content .icon2
+{
+    width: 100px;
+    line-height: 100px;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon2
+{
+    background-color: #FD7E14;
+}
+.sixbox .row .content .icon2 i 
+{
+    font-size: 36px;
+    color: #FD7E14;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon2 i
+{
+    color: white;
+}
+.sixbox .row .content .icon3
+{
+    width: 100px;
+    line-height: 100px;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon3
+{
+    background-color: #20C997;
+}
+.sixbox .row .content .icon3 i 
+{
+    font-size: 36px;
+    color: #20C997;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon3 i
+{
+    color: white;
+}
+.sixbox .row .content .icon4
+{
+    width: 100px;
+    line-height: 100px;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon4
+{
+    background-color: #E02E36;
+}
+.sixbox .row .content .icon4 i 
+{
+    font-size: 36px;
+    color: #E02E36;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon4 i
+{
+    color: white;
+}
+.sixbox .row .content .icon5
+{
+    width: 100px;
+    line-height: 100px;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon5
+{
+    background-color: #6610F2;
+}
+.sixbox .row .content .icon5 i 
+{
+    font-size: 36px;
+    color: #6610F2;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon5 i
+{
+    color: white;
+}
+.sixbox .row .content .icon6
+{
+    width: 100px;
+    line-height: 100px;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon6
+{
+    background-color: #f3268c;
+}
+.sixbox .row .content .icon6 i 
+{
+    font-size: 36px;
+    color: #f3268c;
+    transition: 0.7s;
+}
+.sixbox .row .content:hover .icon6 i
+{
+    color: white;
+}
+.sixbox .row .content h3
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 13px 0px 15px 0px;
+}
+.sixbox .row .content p
+{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+    /* six boxes code ends */
+
+    /* protfolio code starts */
+    
+.profolio
+{
+    padding: 60px 0px;
+}  
+.profolio img
+{
+    margin-top: 20px;
+    width: 100%;
+}
+.profolio h2
+{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profolio hr
+{
+    color: #1BBD36;
+    width: 10%;
+    border: 3px solid #00ff2a;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.profolio p
+{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+    
+
+    /* protfolio code ends */
+
+    /* clients code starts */
+
+.clients
+{
+    padding: 60px 0px;
+}
+.clients .row1, .clients .row2 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients .row1 .logo
+{
+    height: 170px;
+    width: 25%;
+    background-color: white;
+    /* color: #444444; */
+    border: 1px solid #444444;
+    display: flex;
+    align-items: center;
+}
+.clients .row2 .logo
+{
+    height: 190px;
+    width: 25%;
+    background-color: white;
+    /* color: #444444; */
+    border: 1px solid #444444;
+    display: flex;
+    align-items: center;
+}
+.clients .row1 .logo img, .clients .row2 .logo img
+{
+    width: 100%;
+    padding: 50px;
+}
+.clients .row2 .logo:hover img
+{
+    transform: scale(1);
+}
+.clients h2
+{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.clients hr
+{
+    color: #1BBD36;
+    width: 10%;
+    border: 3px solid #00ff2a;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.clients p
+{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+    /* clients code ends */
+
+    /* footer code strats */
+
+.footer
+{
+    background-color: #060606;
+    width: 100%;
+} 
+.footer .headcompany a
+{
+    text-decoration: none;
+    color: white;
+    line-height: 26px;
+    font-size: 26px;
+    font-weight: 700;
+}   
+.footer .para p
+{
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: white;
+}
+.footer .icon
+{
+    margin-top: 20px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .icon a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.803);
+    border-radius: 50px;
+}
+.footer .icon i
+{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.803);
+}
+.footer .links
+{
+    padding: 0px 12px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.footer h4
+{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+}
+.footer .links ul
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+}
+.footer .links ul li
+{
+    padding: 3px 0px;
+    list-style: none;
+}
+.footer .links ul li a 
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.803);
+}
+.footer .links ul li:hover a
+{
+    color: #00ff2a;
+}
+.footer .subscribe
+{
+    padding: 0px 12px;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.footer .sub 
+{
+    margin: 30px 0px 15px;
+    padding: 8px 6px;
+}
+.footer .subscribe p
+{
+    color: rgba(255, 255, 255, 0.803);   
+}
+.footer .sub .emailbtn
+{
+    color: rgba(255, 255, 255, 0.803);
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 45px;
+    margin: 0%;
+    width: 68.5%;
+    background-color: #252525;
+}
+.footer .sub .sumitbtn
+{
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 45px;
+    margin: 0%;
+    padding: 0%;
+    background-color: #1bbd36;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 30%;
+}
+.footer .copyright
+{
+    margin-top: 24px auto 0px auto;
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .copyright hr
+{
+    margin: 20px 0px;
+    height: 0.5px;
+    width: 100%;
+    background-color: white;
+}
+.footer .copyright .copy1
+{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer .copyright .copy1 span
+{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer .copyright .copy2
+{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer .copyright .copy2 a
+{
+    color: #00ff2a;
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+    /* footer code ends */
